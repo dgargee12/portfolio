@@ -20,23 +20,31 @@ body {
    margin-left: 10%;
    border-radius: 10px;
    opacity: 0.8;
-   /* float: left; */
 }
 
 .info {
    float: right;
    position: relative;
-   margin-right: 20%;
+   margin-right: 15%;
+   width: 40%;
    margin-top: 10%;
    color: white;
+   text-align: center;
 }
 
 .info h1 {
    letter-spacing: 3mm;
    word-spacing: 4mm;
    opacity: 0.9;
-   font-size: 40px;
-   /* margin-right: 30%; */
+   font-size: 3rem;
+}
+
+.info p {
+   letter-spacing: 1mm;
+   word-spacing: 2mm;
+   opacity: 0.9;
+   font-size: 1rem;
+   line-height: 1.8;
 }
 
 .content {
